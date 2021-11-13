@@ -1,0 +1,31 @@
+Problema 3
+
+/*Generar una solución que lea la temperatura en grados centı́grados (◦C) 
+y la convierta a grados Farenheit (◦F) y a grados Kelvin (◦K), siempre y 
+cuando la temperatura dada en grados centı́grados sea positiva y menor o 
+igual que cien.
+*/
+
+1.Inicio
+
+2.gradosC, d[0,n]
+3.gradosF, d[0,n]
+4.gradosK, d[0,n]
+
+5.Escribir "Ingresar grados Centigrados"
+6.Lea gradosC
+
+7.Si gradosC >= 0 && <= 100
+8.   gradosF <-- 9/5 * gradosC + 32
+9.   gradosK <-- gradosC + 273.15
+
+10.Por lo contrario
+11.  Escribir "Los datos ingresados no son validos"
+
+12.Fin si
+
+13.Escribir "La temperatura en grados centigrados es: " + gradosC + " 
+   La temperatura en grados farenheit es: " + gradosF + " 
+   La temperatura en gradosKelvin es: " + gradosK
+
+14.Fin

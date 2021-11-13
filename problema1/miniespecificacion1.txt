@@ -1,0 +1,38 @@
+Problema 1
+
+Solución que permita calcular y mostrar el valor a cancelar de una planilla de luz. Se debe ingresar el valor de costo por 
+kilovatio/hora y el número de kilovatios consumidos en el mes. Si el usuario tiene edad mayor a 65 años, se debe descontrar el 10%.
+
+1.  Inicio
+
+2.  costo_kilovatio, d[0,n]
+
+3.  kilovatiosconsumidos, d[0,n]
+
+4.  edad, i[0,n]
+
+5.  descuento, d[0,n]
+ 
+6.  porcentaje, d[0,n]  <--- 10
+
+7.  valortotal,d[0,n]
+
+8.  Escribir "Ingrese la edad"
+9.  Lea edad
+
+10.  Escribir "Ingrese el costo_kilovatio"
+11.  Lea costo_kilovatio
+
+12.  Escribir "Ingrese los kilovatiosconsumidos"
+13.  Lea kilovatiosconsumidos
+
+14.  valorTotal <-- costo_kilovatio*kilovatiosconsumidos
+15. Si edad  > 65 entonces
+      // vt  ----  100%
+      // x   ----  10%
+16.   descuento <-- (porcentaje * valorTotal)/100
+17.   valorTotal <-- valorTotal - descuento 
+18. Fin si
+19.Escribir "El valor total a pagar es: " + valorTotal
+
+20. Fin
